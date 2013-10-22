@@ -7,10 +7,10 @@ Usage
 ======
 In python command line:
 
-'''python
+```python
 import * from xml2csv
 xml2csv(inputfile,outputfile,header)
-'''
+```
 
 - inputfile: One 'xml' file or a direcotry contains 'xml' files
 - outputfile: Output csv file name, if not given, 'output.csv'is created in the same level of the input directory (when inputfile is a directory) or in the parent folder ofthe input file (when inputfile is a single xml file).
