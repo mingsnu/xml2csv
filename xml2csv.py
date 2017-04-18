@@ -10,7 +10,7 @@ List all of the files in the current directory and sub-directories.
 def list_all_files(inputDir):
     allFiles = []
     for (dirname, dirnames, filenames) in os.walk(inputDir):
-        # Put all file names end up with ".hwp" in the input dictionary to a list
+        # Put all file names end up with ".xml" in the input dictionary to a list
         allFiles = allFiles + [os.path.join(dirname,filename) for filename in filenames if filename.endswith(".xml")]
     return(allFiles)
 
